@@ -12,4 +12,7 @@ Read more here: [alixfdm.fr](https://www.alixfdm.fr)
 # Installation
 1. Create a directory `plugin-name` into /wp-content/plugins/
 2. Upload files to the `plugin-name` directory
-3. Activate the plugin through the 'Plugins' menu in WordPress
+3. Install Elementor Page Builder plugin
+4. Activate the plugin through the 'Plugins' menu in WordPress
+5. Create a wp menu
+6. Use the *Simple Menu* widget from Elementor Page Builder 
