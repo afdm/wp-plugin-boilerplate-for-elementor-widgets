@@ -7,7 +7,7 @@
 
 # Description
 This is a plugin exemple that aim to be a boilerplate for developping some Elementor widgets...
-Read more here: [alixfdm.fr](https://www.alixfdm.fr)
+Read more here: [alixfdm.fr](https://alixfdm.fr/comment-faire-le-menu-de-vos-reves-avec-elementor/)
 
 # Installation
 1. Create a directory `plugin-name` into /wp-content/plugins/
@@ -15,4 +15,4 @@ Read more here: [alixfdm.fr](https://www.alixfdm.fr)
 3. Install Elementor Page Builder plugin
 4. Activate the plugin through the 'Plugins' menu in WordPress
 5. Create a wp menu
-6. Use the *Simple Menu* widget from Elementor Page Builder 
+6. Use the *Simple Menu* widget from Elementor Page Builder
