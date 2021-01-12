@@ -8,6 +8,11 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
  * @since 1.0.0
  */
 class Simple_Menu extends Elementor\Widget_Base {
+
+    public function __construct($data = [], $args = null) {
+        parent::__construct($data, $args);
+	    wp_register_script( 'simple-menu', plugin_dir_url( __FILE__ ) . 'js/simple-menu.js', ['elementor-frontend'], $version, true );
+    }
  
     /**
      * Retrieve the widget name.
@@ -180,5 +185,9 @@ class Simple_Menu extends Elementor\Widget_Base {
      */
     protected function _content_template() {
         
+    }
+
+    public function get_script_depends() {
+        return array('simple-menu');
     }
 }

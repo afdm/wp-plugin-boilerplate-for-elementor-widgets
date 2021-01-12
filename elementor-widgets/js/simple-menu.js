@@ -1,0 +1,2 @@
+// Any javascript code here
+// Please see the official documentation here -> https://developers.elementor.com/creating-a-new-widget/adding-javascript-to-elementor-widgets/#Registering_the_Widget_Handler_with_Elementor
